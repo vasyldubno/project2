@@ -854,6 +854,7 @@
   }
   .pricing__card {
     max-width: 600px;
+    margin-bottom: 40px;
   }
   .pricing__cards {
     align-items: center;
