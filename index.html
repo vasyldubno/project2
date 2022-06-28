@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/root.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- <button class="primary-button">first</button>
+    <button class="primary-button-corner">second</button>
+    <button class="default-button">third</button> -->
+
+    <!-- https://www.figma.com/file/TE3e4fO4OwcHXYDSuZIZhM/%F0%9F%8E%A8-Creative-Website-Template-for-Figma-(Community)?node-id=632%3A16 -->
+
+    <header class="header">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header__inner">
+          <a href="#" class="burger">
+            <span></span>
+          </a>
+          <a class="header__logo" href="#">
+            <img src="./img/icon-layout.svg" alt="logo" />
+            <span class="header__logo-title">Grid</span>
+          </a>
+          <nav class="header__nav">
+            <a href="#" class="header__link">How it works</a>
+            <span class="header__point"></span>
+            <a href="#" class="header__link">Who we are</a>
+            <span class="header__point"></span>
+            <a href="#" class="header__link">What we do</a>
+            <span class="header__point"></span>
+            <a href="#" class="header__link">Contact us</a>
+          </nav>
+          <button class="header__button primary-button-corner">Sign In</button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <section class="hero">
+        <img src="./img/rectangle.png" alt="" class="hero__rectangle" />
+        <img src="./img/dots-1.svg" alt="" class="hero__dots" />
+        <div class="container">
+          <div class="hero__inner">
+            <div class="hero__top">
+              <h1 class="hero__tittle">
+                Combine <span class="hero__title-image"><span class="hero__title-fine">fine</span> images</span>
+              </h1>
+              <p class="hero__subtittle">To represent a product</p>
+            </div>
+            <a href="#pricing" class="hero__arrow-down">
+              <img src="./img/arrow-down.svg" alt="" />
+            </a>
+            <div class="hero__grid">
+              <p class="hero__text-left">Use mixed grid with imagery, replace with your own photos and descriptions</p>
+              <p class="hero__text-right">This is multipurpose grid, it fits for portfolio, services or agency web site</p>
+              <img class="hero__image-1" src="./img/photo-1.jpg" alt="" />
+              <img class="hero__image-2" src="./img/photo-2.jpg" alt="" />
+              <img class="hero__image-3" src="./img/photo-3.jpg" alt="" />
+              <img class="hero__image-4" src="./img/photo-4.jpg" alt="" />
+              <img class="hero__image-5" src="./img/photo-5.jpg" alt="" />
+              <img class="hero__image-6" src="./img/photo-6.jpg" alt="" />
+              <img class="hero__image-7" src="./img/photo-7.jpg" alt="" />
+              <button class="hero__button-grid primary-button-corner">Learn more</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="benefits">
+        <div class="container">
+          <h2 class="benefits__title">Delivering good designs since 1954 🚚💨</h2>
+          <p class="benefits__subtitle">We’re the first multi-purpose design kit solutions for businesses. We help you bridge gaps between your layouts, templates and developers to empower all involved.</p>
+          <ul class="benefits__row">
+            <li class="benefits__item">
+              <span class="benefits__item-bg-1"></span>
+              <div class="benefits__item-content">
+                <h3 class="benefits__item-title">Support</h3>
+                <p class="benefits__item-subtitle">Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <button class="default-button benefits__button">Learn more</button>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <span class="benefits__item-bg-2"></span>
+              <div class="benefits__item-content">
+                <h3 class="benefits__item-title">Sales growth</h3>
+                <p class="benefits__item-subtitle">Identify qualified customers with easy-to-use live chat messaging and AI-based Sales Bot</p>
+                <button class="default-button benefits__button">Learn more</button>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <span class="benefits__item-bg-3"></span>
+              <div class="benefits__item-content">
+                <h3 class="benefits__item-title">Coponents-driven</h3>
+                <p class="benefits__item-subtitle">Delivering faster and more personalized support with shared screens and cool design systems for Figma</p>
+                <button class="default-button benefits__button">Learn more</button>
+              </div>
+            </li>
+            <li class="benefits__item">
+              <span class="benefits__item-bg-4"></span>
+              <div class="benefits__item-content"></div>
+                <h3 class="benefits__item-title">Swap the icon</h3>
+                <p class="benefits__item-subtitle">You can toggle to any icon within Instances and customize outlined stroke to more bolder or lighter</p>
+                <button class="default-button benefits__button">Learn more</button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="pricing" id="pricing">
+        <div class="container">
+          <div class="pricing__inner">
+            <div class="pricing__top">
+              <p class="pricing__title">Affordable pricing</p>
+              <p class="pricing__subtitle">Bill me <span class="pricing__subtitle-monthly">monthly</span><span class="pricing__subtitle-yearly"> • yearly</span></p>
+            </div>
+            <ul class="pricing__cards">
+              <li class="pricing__card">
+                <div class="pricing__card-label-flex">
+                  <p class="pricing__card-subtitle">Like a pussy</p>
+                  <!-- <div class="pricing__card-label">BEST!</div> -->
+                </div>
+                <p class="pricing__card-title"><span>Free</span> / forever</p>
+                <ul class="pricing__card-benefits-first">
+                  <li>Components-driven system</li>
+                  <li>Sales-boosting landing pages</li>
+                  <li>Awesome Feather icons pack</li>
+                </ul>
+                <button class="default-button pricing__button">Try for free</button>
+              </li>
+              <li class="pricing__card">
+                <div class="pricing__card-label-flex">
+                  <p class="pricing__card-subtitle">👤 Individual</p>
+                  <div class="pricing__card-label">BEST!</div>
+                </div>
+                <p class="pricing__card-title"><span>$24</span> / month</p>
+                <ul class="pricing__card-benefits-two">
+                  <li>Components-driven system</li>
+                  <li>Sales-boosting landing pages</li>
+                  <li>Awesome Feather icons pack</li>
+                  <li>Themed into 3 different styles</li>
+                  <li>Will help to learn Figma</li>
+                </ul>
+                <button class="default-button pricing__button">Regular license</button>
+              </li>
+              <li class="pricing__card">
+                <div class="pricing__card-label-flex">
+                  <p class="pricing__card-subtitle">👥 Corporate</p>
+                  <!-- <div class="pricing__card-label">BEST!</div> -->
+                </div>
+                <p class="pricing__card-title"><span>$12</span> / editor</p>
+                <ul class="pricing__card-benefits-three">
+                  <li>Components-driven system</li>
+                  <li>Sales-boosting landing pages</li>
+                  <li>Awesome Feather icons pack</li>
+                  <li>Themed into 3 different styles</li>
+                </ul>
+                <button class="default-button pricing__button">Extended license</button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__top">
+          <div class="footer__social-icon">
+            <p class="footer__text">follow us</p>
+            <ul class="footer__social-icon-items">
+              <li class="footer__social-icon-item">
+                <a href="#"><img src="./img/icon-facebook.svg" alt="" /></a>
+              </li>
+              <li class="footer__social-icon-item">
+                <a href="#"><img src="./img/icon-linkedin.svg" alt="" /></a>
+              </li>
+              <li class="footer__social-icon-item">
+                <a href="#"><img src="./img/icon-slack.svg" alt="" /></a>
+              </li>
+              <li class="footer__social-icon-item">
+                <a href="#"><img src="./img/icon-twitter.svg" alt="" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__email">
+            <p class="footer__text-email">follow us</p>
+            <p class="footer__email-item">hello@fapsterapp.com</p>
+          </div>
+        </div>
+        <div class="footer__body">
+          <div class="footer__information">
+            <p class="footer__text">information</p>
+            <div class="footer__information-links">
+              <a href="#" class="footer__information-link"><span>About Fapster app</span></a>
+              <a href="#" class="footer__information-link"><span>Get in Touch</span></a>
+              <a href="#" class="footer__information-link"><span>Things We Like</span></a>
+              <a href="#" class="footer__information-link"><span>Onhovered / Active</span></a>
+              <a href="#" class="footer__information-link"><span>Privacy Policy</span></a>
+              <a href="#" class="footer__information-link"><span>Terms of Service</span></a>
+              <a href="#" class="footer__information-link"><span>We are hiring!</span></a>
+              <a href="#" class="footer__information-link"><span>Resources</span></a>
+            </div>
+          </div>
+          <div class="footer__form">
+            <p class="footer__text">keep in touch</p>
+            <form class="footer__form-subs">
+              <div class="footer__form--name-email">
+                <label class="footer__label-name">
+                  <input type="text" placeholder="Your name" />
+                  <div class="footer__label-div"></div>
+                </label>
+                <label class="footer__label-email">
+                  <input type="text" placeholder="E-mail" />
+                  <div></div>
+                </label>
+              </div>
+              <div class="footer__form--message-button">
+                <label class="footer__label-message">
+                  <textarea placeholder="Leave your message"></textarea>
+                  <div class="footer__label-div"></div>
+                </label>
+                <button class="primary-button">SEND</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+</html>
